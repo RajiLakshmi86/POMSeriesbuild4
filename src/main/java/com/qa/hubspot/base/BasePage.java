@@ -139,7 +139,7 @@ public class BasePage {
 		prop = new Properties();
 		FileInputStream ip;
 		try {
-			ip = new FileInputStream("./src/main/java/com/qa/hubspot/config/config.properties");
+			ip = new FileInputStream("C:\\Users\\91971\\eclipse-workspace\\PageObjectModelHubspot\\src\\main\\java\\com\\qa\\hubspot\\config\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

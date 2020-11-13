@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Hub spot Test automtion regression suite" duration-ms="81752" started-at="2020-11-13T12:46:56Z" finished-at="2020-11-13T12:48:17Z">
+  <suite name="Hub spot Test automtion regression suite" duration-ms="52871" started-at="2020-11-13T16:43:11Z" finished-at="2020-11-13T16:44:04Z">
     <groups>
     </groups>
-    <test name="Login page Test - Chrome" duration-ms="57752" started-at="2020-11-13T12:46:56Z" finished-at="2020-11-13T12:47:53Z">
+    <test name="Login page Test - Chrome" duration-ms="40210" started-at="2020-11-13T16:43:11Z" finished-at="2020-11-13T16:43:51Z">
       <class name="com.qa.hubspot.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@20ed3303]" name="setUp" is-config="true" duration-ms="23593" started-at="2020-11-13T12:46:56Z" finished-at="2020-11-13T12:47:19Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@629f066f]" name="setUp" is-config="true" duration-ms="16290" started-at="2020-11-13T16:43:11Z" finished-at="2020-11-13T16:43:28Z">
           <params>
             <param index="0">
               <value>
@@ -18,31 +18,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@20ed3303]" name="verifySignUpLinkTest" duration-ms="7334" started-at="2020-11-13T12:47:19Z" finished-at="2020-11-13T12:47:27Z">
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@629f066f]" name="verifySignUpLinkTest" duration-ms="6398" started-at="2020-11-13T16:43:28Z" finished-at="2020-11-13T16:43:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkTest -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@20ed3303]" name="verifyLoginPageTitleTest" duration-ms="1039" started-at="2020-11-13T12:47:28Z" finished-at="2020-11-13T12:47:29Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@629f066f]" name="verifyLoginPageTitleTest" duration-ms="476" started-at="2020-11-13T16:43:36Z" finished-at="2020-11-13T16:43:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="FAIL" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@20ed3303]" name="loginTest" duration-ms="12123" started-at="2020-11-13T12:47:29Z" finished-at="2020-11-13T12:47:41Z">
+        <test-method status="FAIL" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@629f066f]" name="loginTest" duration-ms="11553" started-at="2020-11-13T16:43:36Z" finished-at="2020-11-13T16:43:48Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for title to contain "Account Setup | HubSpot". Current title: "HubSpot Login" (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP34SPTP47R', ip: '192.168.0.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\91971\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 24c73f6567e7c098037ddee7b23143ed]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\91971\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 972527bfc997c69d188f5f60e41caed5]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Account Setup | HubSpot". Current title: "HubSpot Login" (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP34SPTP47R', ip: '192.168.0.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\91971\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 24c73f6567e7c098037ddee7b23143ed
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\91971\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 972527bfc997c69d188f5f60e41caed5
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 at co.qa.hubspot.util.ElementUtil.waitForPageTitlePresent(ElementUtil.java:162)
@@ -74,15 +74,15 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@20ed3303]" name="tearDown" is-config="true" duration-ms="9286" started-at="2020-11-13T12:47:44Z" finished-at="2020-11-13T12:47:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@629f066f]" name="tearDown" is-config="true" duration-ms="1157" started-at="2020-11-13T16:43:50Z" finished-at="2020-11-13T16:43:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
     </test> <!-- Login page Test - Chrome -->
-    <test name="Login page Test - FF" duration-ms="81752" started-at="2020-11-13T12:46:56Z" finished-at="2020-11-13T12:48:17Z">
+    <test name="Login page Test - FF" duration-ms="52871" started-at="2020-11-13T16:43:11Z" finished-at="2020-11-13T16:44:04Z">
       <class name="com.qa.hubspot.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@11841b15]" name="setUp" is-config="true" duration-ms="61640" started-at="2020-11-13T12:46:56Z" finished-at="2020-11-13T12:47:57Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@6050462a]" name="setUp" is-config="true" duration-ms="31503" started-at="2020-11-13T16:43:11Z" finished-at="2020-11-13T16:43:43Z">
           <params>
             <param index="0">
               <value>
@@ -93,31 +93,31 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@11841b15]" name="verifySignUpLinkTest" duration-ms="3624" started-at="2020-11-13T12:47:57Z" finished-at="2020-11-13T12:48:01Z">
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@6050462a]" name="verifySignUpLinkTest" duration-ms="3746" started-at="2020-11-13T16:43:43Z" finished-at="2020-11-13T16:43:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkTest -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@11841b15]" name="verifyLoginPageTitleTest" duration-ms="9" started-at="2020-11-13T12:48:01Z" finished-at="2020-11-13T12:48:01Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@6050462a]" name="verifyLoginPageTitleTest" duration-ms="8" started-at="2020-11-13T16:43:47Z" finished-at="2020-11-13T16:43:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="FAIL" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@11841b15]" name="loginTest" duration-ms="11659" started-at="2020-11-13T12:48:01Z" finished-at="2020-11-13T12:48:13Z">
+        <test-method status="FAIL" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@6050462a]" name="loginTest" duration-ms="11061" started-at="2020-11-13T16:43:47Z" finished-at="2020-11-13T16:43:58Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for title to contain "Account Setup | HubSpot". Current title: "HubSpot Login" (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP34SPTP47R', ip: '192.168.0.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201027185343, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1208, moz:profile: C:\Users\91971\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 58c76762-08ce-46da-aee1-e684261f2f68]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201027185343, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 3752, moz:profile: C:\Users\91971\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 025cd5c7-1dbb-45fd-80de-5846d703a095]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Account Setup | HubSpot". Current title: "HubSpot Login" (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP34SPTP47R', ip: '192.168.0.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201027185343, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1208, moz:profile: C:\Users\91971\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 58c76762-08ce-46da-aee1-e684261f2f68
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201027185343, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 3752, moz:profile: C:\Users\91971\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 025cd5c7-1dbb-45fd-80de-5846d703a095
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 at co.qa.hubspot.util.ElementUtil.waitForPageTitlePresent(ElementUtil.java:162)
@@ -149,7 +149,7 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@11841b15]" name="tearDown" is-config="true" duration-ms="4483" started-at="2020-11-13T12:48:13Z" finished-at="2020-11-13T12:48:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@6050462a]" name="tearDown" is-config="true" duration-ms="6310" started-at="2020-11-13T16:43:58Z" finished-at="2020-11-13T16:44:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
